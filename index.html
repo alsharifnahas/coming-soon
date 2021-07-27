@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/web-1920-1.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+
+  <body style="margin: 0; background: #ffffff">
+    <div class="container-center-horizontal">
+      <div class="child-container">
+
+        <div class="overlap-group1">
+          <a href="https://drive.google.com/file/d/1c9yiK-lTd-KCDmBm7Mwbbvorluk_qF_J/view" target="_blank"><img
+              class="image x10 smart-layers-pointers" src="img/10@1x.png" /></a>
+
+          <h1 class="title animate-enter4">WORK SAMPLES</h1>
+
+        </div>
+        <div class="text-container">
+          <p class="name animate-enter2">Alsharif Khaled Nahas</p>
+          <p class="coming-soon animate-enter">Coming soon</p>
+          <p class="work-sample animate-enter1">View work samples</p>
+
+        </div>
+        <div class="image-container">
+          <img class="logo cv-nahas01 animate-enter3" src="img/cv-nahas-01@1x.png" />
+        </div>
+
+
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".image").mouseover(function () {
+          $(".title").css("visibility", "visible");
+        });
+        $(".image").mouseout(function () {
+          $(".title").css("visibility", "hidden");
+        });
+      });
+    </script>
+  </body>
+
+</html>
