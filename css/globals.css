@@ -204,8 +204,9 @@ html {
   }
 
   .image {
-    width: 80%;
+    width: 90%;
     border-radius: 2%;
+    height: 500px;
   }
 }
 
