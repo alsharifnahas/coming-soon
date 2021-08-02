@@ -207,6 +207,14 @@ html {
     width: 90%;
     border-radius: 2%;
     height: 500px;
+    z-index: -1;
+  }
+  .title {
+    visibility: visible;
+    opacity: 1;
+    left: 45%;
+    z-index: 1;
+    font-size: 20px;
   }
 }
 
