@@ -182,7 +182,7 @@ html {
   }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 550px) {
+@media only screen and (min-width: 320px) and (max-width: 550px) {
   .container-center-horizontal {
     display: none;
   }
@@ -243,5 +243,50 @@ html {
 
   .name {
     font-size: var(--font-size-l);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container-center-horizontal {
+    display: none;
+  }
+  .mobile-container {
+    padding: 10px;
+    height: 100%;
+  }
+  .mobile-child-container {
+    height: 100%;
+  }
+  .image-container {
+    width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    height: 20%;
+  }
+  .logo {
+    width: 10%;
+  }
+  .text-container {
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: 8px;
+  }
+
+  .image {
+    width: 100%;
+    border-radius: 2%;
+    height: 100%;
+    z-index: -1;
+  }
+  .title {
+    visibility: visible;
+    opacity: 1;
+    left: 45%;
+    z-index: 1;
+    font-size: 20px;
+  }
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
