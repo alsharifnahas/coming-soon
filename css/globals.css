@@ -188,11 +188,16 @@ html {
   }
   .mobile-container {
     padding: 10px;
+    height: 100%;
+  }
+  .mobile-child-container {
+    height: 100%;
   }
   .image-container {
     width: 100%;
     justify-content: flex-end;
     padding-bottom: 20px;
+    height: 15%;
   }
   .logo {
     width: 5%;
@@ -206,7 +211,7 @@ html {
   .image {
     width: 90%;
     border-radius: 2%;
-    height: 500px;
+    height: 100%;
     z-index: -1;
   }
   .title {
@@ -215,6 +220,9 @@ html {
     left: 45%;
     z-index: 1;
     font-size: 20px;
+  }
+  .overlap-group2 {
+    height: 78%;
   }
 }
 
