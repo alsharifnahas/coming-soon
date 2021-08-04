@@ -197,10 +197,10 @@ html {
     width: 100%;
     justify-content: flex-end;
     padding-bottom: 20px;
-    height: 15%;
+    height: 20%;
   }
   .logo {
-    width: 5%;
+    width: 10%;
   }
   .text-container {
     width: 100%;
@@ -209,7 +209,7 @@ html {
   }
 
   .image {
-    width: 90%;
+    width: 100%;
     border-radius: 2%;
     height: 100%;
     z-index: -1;
@@ -221,8 +221,11 @@ html {
     z-index: 1;
     font-size: 20px;
   }
-  .overlap-group2 {
-    height: 78%;
+  .image-text-container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }
 
